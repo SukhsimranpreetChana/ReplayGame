@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.daniel-geo.unityhackatime": {
+      "version": "https://github.com/daniel-geo/unity-hackatime.git#package",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5ac210a9a287428cb876ce9ea4ef14fe31e115b7"
+    },
     "com.unity.burst": {
       "version": "1.8.18",
       "depth": 2,
@@ -101,6 +108,15 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.postprocessing": {
+      "version": "3.4.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
